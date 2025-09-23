@@ -139,6 +139,47 @@ font-weight: 800;
   font-size: 24px;
 }
 
+/* offer section */
+
+
+span{
+    color: #E55473;
+}
+.offer-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     text-align: center;
+     
+
+}
+
+.offer{
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 12px;
+    margin-bottom: 128px;
+    height: 620px;
+}
+.offer-text{
+   
+    margin-top: 130px ;
+    margin-left: 395px;
+}
+.offer-title{
+
+    font-weight: 800;
+    font-size: 40px;
+}
+.offer-description{
+    width: 594px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.offer-img{
+    margin: 100px 429px 100px;
+}
+
+
 
 
 
