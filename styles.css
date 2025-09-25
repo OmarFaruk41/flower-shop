@@ -179,8 +179,85 @@ span{
     margin: 100px 429px 100px;
 }
 
+/* flower section */
 
+.flower{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 128px;
+}
+.flower-container{
+    display: flex;
+   flex-direction: column;
+}
+.flower-text{
+    text-align: center;
+    align-items: center;
+   margin: 0 auto;
+   padding-bottom: 48px;
+    width: 594px;
+}
+.flower-text-description{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+}
+.flower-card-img{
+    display: flex;
+    gap: 24px;
+}
+/* subscribe */
 
+.subscribe{
+background-image:url("./Flower\ Asset/Rectangle 9.png");
+width: 1440px;
+height: 449px;
+margin:0 auto;
+margin-bottom: 128px;
+}
+.subscribe-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 128px;
+   
+}
+
+.input-btn .input{
+    width: 700px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 22px;
+    margin-right: 16px;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 449px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-title{
+   font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 128px;
+}
+.footer-description{
+    width: 625px;
+    margin: 0 auto;
+    text-align: center;
+}
+.rights{
+    color:rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-top: 32px;
+}
 
 
 @media screen and (max-width: 576px){
