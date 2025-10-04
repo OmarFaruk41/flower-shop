@@ -113,7 +113,7 @@ font-weight: 800;
 .service{
     background-color: rgba(39, 39, 39, 0.05);
     width: 1100px;
-    max-width: 320px;
+    height: 320px;
     margin: 0 auto;
     padding: 86px 175px 87px 175px;
     margin-bottom: 128px;
